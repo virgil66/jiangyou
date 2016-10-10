@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>选择银行卡</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/bank.css">
+</head>
+<body>
+	<div class="return" id="return">
+		<a href="##" class="return-link" onClick="javascript :history.back(-1);">
+			<img src="images/icon_back.png" alt="返回" class="icon-back" />
+		</a>
+	</div>
+	<div class="binding-card">
+		<h3 class="card-title">已绑定的银行卡</h3>
+		<div class="bank-group">
+			<div class="card-list active">
+				<img src="images/icon_xingye.png" alt="兴业银行" class="bank-symbol" />
+				<span class="bank-name">兴业银行借记卡(*****0041)</span>
+				<img src="images/icon_yes.png" alt="" class="yes" />
+			</div>
+			<div class="card-list">
+				<img src="images/icon_merchants.png" alt="兴业银行" class="bank-symbol" />
+				<span class="bank-name">招商银行借记卡(*****3872)</span>
+				<img src="images/icon_yes.png" alt="" class="yes" />
+			</div>
+			<div class="card-list">
+				<img src="images/icon_construction.png" alt="兴业银行" class="bank-symbol" />
+				<span class="bank-name">建设银行借记卡(*****0414)</span>
+				<img src="images/icon_yes.png" alt="" class="yes" />
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script>
+		$('.binding-card .card-list').on('touchstart',function(event){
+			$(this).addClass('active').siblings().removeClass('active');
+		})
+	</script>
+</body>
+</html>

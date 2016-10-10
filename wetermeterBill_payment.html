@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>远传水表充值</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/wetermeterBill_payment.css">
+</head>
+<body>
+	<div class="return" id="return">
+		<a href="##" class="return-link" onClick="javascript :history.back(-1);">
+			<img src="images/icon_back.png" alt="返回" class="icon-back" />
+		</a>
+	</div>
+	<div class="account-name margin-t-10">
+		<div class="account-number">充值户号&emsp;9991428876</div>
+		<div class="elsa">
+			<p class="elsa-name">Elsa</p>
+			<p class="elsa-info">远传水表绑定户号</p>
+		</div>
+	</div>
+	<div class="figure margin-t-10">
+		<p class="choice">请选择充值金额</p>
+		<ul class="type">
+			<li class="type-species">50</li>
+			<li class="type-species active">100</li>
+			<li class="type-species">300</li>
+			<li class="type-species">500</li>
+			<li class="type-species">1000</li>
+		</ul>
+		<div class="define">
+			<p class="define-name">自定义金额</p>
+			<div class="define-content">
+				<img src="images/icon_sum.png" alt="" class="icon-sum" />
+				<input type="text" placeholder="请输入想要充值的金额" class="sum-input" />
+			</div>
+		</div>
+	</div>
+	<div class="payment-btn">
+		<div class="btn-default">充 值</div>
+	</div>
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script>
+		$('.figure .type-species').on('touchstart',function(event){
+			$(this).addClass('active').siblings().removeClass('active');
+		})
+	</script>
+</body>
+</html>

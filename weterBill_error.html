@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>自来水缴费</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/bill.css">
+</head>
+<body>
+	<div class="return" id="return">
+		<a href="##" class="return-link" onClick="javascript :history.back(-1);">
+			<img src="images/icon_back.png" alt="返回" class="icon-back" />
+		</a>
+	</div>
+	<div class="remind-save">
+		<div class="remind">
+			<span class="remind-name">缴费提醒</span>
+			<span class="remind-bg remind-bg-1"></span>
+		</div>
+		<div class="save">
+			<span class="save-name">保存账号</span>
+			<span class="save-bg save-bg-2"></span>
+		</div>
+	</div>
+	<div class="bill-group">
+		<div class="bill-month">
+			<div class="box box-none">
+				<img src="images/icon_water.png" alt="自来水缴费" class="icon">
+			</div>
+			<span class="month">自来水缴费</span>
+		</div>
+		<div class="pay-error">
+			<img src="images/icon_arrearage.png" alt="暂未查询到欠费" class="icon-arrearage" />
+			<p class="pay-error-info">暂未查询到欠费</p>
+		</div>
+	</div>
+	<div class="bill-group margin-top-1">
+		<div class="bill-content">
+			<div class="bill-default">
+				<span class="species">户&emsp;名</span>
+				<span class="number">Elsa</span>
+			</div>
+			<div class="bill-default">
+				<span class="species">缴费户号</span>
+				<span class="number">998772122</span>
+			</div>
+			<div class="bill-default">
+				<span class="species">住址信息</span>
+				<span class="number">淞虹路212弄902室</span>
+			</div>
+			<div class="bill-default">
+				<span class="species">备注名</span>
+				<span class="number">My Home</span>
+			</div>
+			<div class="bill-default">
+				<span class="species">欠费月份</span>
+				<span class="number">2016-09、2016-08</span>
+			</div>
+			<div class="bill-default">
+				<span class="species">自动缴费</span>
+				<span class="number">关</span>
+			</div>
+		</div>
+	</div>
+	<div class="btn-default">
+		<div class="btn-error">确 定</div>
+	</div>
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script>
+		$('.remind-save .remind .remind-bg').on('touchstart',function(){
+			$(this).toggleClass('remind-bg-1').toggleClass('remind-bg-2');
+		})
+		$('.remind-save .save .save-bg').on('touchstart',function(){
+			$(this).toggleClass('save-bg-1').toggleClass('save-bg-2');
+		})
+	</script>
+</body>
+</html>
