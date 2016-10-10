@@ -1,0 +1,28 @@
+.life,
+.life-list{
+	padding: 15px;
+	box-sizing: border-box;
+}
+.life-list{
+	background-color: #FCFCFC;
+	border-radius: 8px;
+}
+.life-list + .life-list{
+	margin-top: 12px;
+}
+.icon{
+	width: 35px;
+}
+.icon-go{
+	width: 15px;
+	float: right;
+    margin-top: 10px;
+}
+.icon,
+.name{
+	vertical-align: middle;
+}
+.name{
+	font-size: 16px;
+	margin-left: 5px;
+}

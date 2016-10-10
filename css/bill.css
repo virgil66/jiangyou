@@ -1,0 +1,287 @@
+.pay-default,
+.pay-group,
+.confirm,
+.cancel{
+	width: 100%;
+}
+.remind-save,
+.bill-group,
+.total,
+.cancel{
+	background-color: #FCFCFC;
+}
+.remind-save,
+.bill-content,
+.total,
+.bank-figure{
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.remind-save{
+	margin-top: 15px;
+}
+.remind,
+.save,
+.month,
+.species,
+.total-name,
+.form-bill-name{
+	color: #434343;
+}
+.remind,
+.save,
+.remind-bg,
+.save-bg,
+.total{
+	height: 48px;
+}
+.remind,
+.save,
+.total{
+	line-height: 48px;
+}
+.remind,
+.save,
+.money-val,
+.total-btn{
+	font-size: 16px;
+}
+.remind,
+.bill-month,
+.pay-icon,
+.platform-figure,
+.bank-link,
+.form-bill{
+	border-bottom: 1px solid #E6E6E6;
+}
+.remind-bg,
+.save-bg,
+.number,
+.bankcard,
+.icon-go,
+.form-bill-num{
+	margin-right: 15px;
+}
+.remind-bg,
+.save-bg{
+	display: block;
+	width: 60px;
+}
+.remind-bg-1{
+	background: transparent url(../images/radio_off.png) no-repeat right; 
+	background-size:100% 84%;
+}
+.remind-bg-2{
+	background: transparent url(../images/radio_on.png) no-repeat right; 
+	background-size:100% 84%;
+}
+.save-bg-1{
+	background: transparent url(../images/radio_off.png) no-repeat right; 
+	background-size:100% 84%;
+}
+.save-bg-2{
+	background: transparent url(../images/radio_on.png) no-repeat right; 
+	background-size:100% 84%;
+}
+.bill-group,
+.cancel{
+	margin-top: 12px;
+}
+.bill-month,
+.pay-icon{
+	padding: 12px 15px;
+	box-sizing: border-box;
+}
+.box,
+.icon{
+	width: 35px;
+}
+.box{
+	height: 35px;
+	display: inline-block;
+	background: transparent url(../images/box.png) no-repeat left top;
+	background-size: 100% 100%;
+	margin-right: 8px;
+}
+.box-none{
+	background: none;
+}
+.box,
+.month,
+.pay-name,
+.bankcard,
+.bank-name{
+	vertical-align: middle;
+}
+.month,
+.species,
+.number{
+	font-size: 15px;
+}
+.bill-default,
+.bank-link{
+	padding: 12px 0;
+	box-sizing: border-box;
+}
+.lighting-black{
+	color: #333;
+}
+.bill-default + .bill-default{
+	border-top: 1px solid #E6E6E6;
+}
+.total{
+	position: relative;
+	margin-top: 15px;
+}
+.total:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.money{
+	margin-right: 110px;
+}
+.money-sy,
+.money-val,
+.money-total{
+	font-style: normal;
+}
+.money-sy{
+	font-size: 13px;
+	margin-right: -4px;
+}
+.money-val{
+	color: #000;
+}
+.number,
+.money-total,
+.en-name{
+	color: #A6A6A6;
+}
+.total-btn{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+    width: 100px;
+    background-color: #20A4EF;
+    color: #fff;
+}
+.body-main{
+	position: relative;
+	height: 100%;
+}
+.pay-default{
+	display: none;
+}
+.transparent-bg{
+	background-color: #000;
+	opacity: .8;
+}
+.pay-default,
+.pay-group{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.total-btn,
+.transparent-bg,
+.pay-default{
+	height: inherit;
+}
+.pay-group{
+	background-color: #FCFCFC;
+}
+.pay-name{
+	display: inline-block;
+}
+.en-name{
+	text-transform: uppercase;
+}
+.platform-figure{
+	text-align: center;
+}
+.platform-figure,
+.form-bill{
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+.figure{
+	font-size: 24px;
+    color: #404040;
+    margin-top: 3px;
+}
+.bankcard{
+	width: 30px;
+}
+.icon-go{
+	width: 15px;
+	margin-top: 7.5px;
+}
+.remind-bg,
+.save-bg,
+.number,
+.money,
+.icon-go,
+.form-bill-num{
+	float: right;
+}
+.total-btn,
+.form-bill-num,
+.confirm,
+.cancel{
+	border: none;
+	outline: none;
+}
+.confirm-cancel{
+	padding-right: 15px;
+	box-sizing: border-box;
+	margin: 40px 0 20px;
+}
+.confirm,
+.cancel{
+	display: block;
+	padding: 10px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.form-bill-num{
+	width: 200px;
+	text-align: right;
+	color: #A7A7A7;
+}
+.confirm{
+	background-color: #20A4EF;
+	color: #fff;
+}
+.cancel{
+	color: #20A4EF;
+	border: 1px solid #20A4EF;
+}
+.pay-error{
+	text-align: center;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+.icon-arrearage{
+	width: 82px;
+}
+.pay-error-info{
+	margin-top: 12px;
+}
+.margin-top-1{
+	margin-top: 1px
+}
+.btn-default{
+	padding: 20px 15px;
+	box-sizing: border-box;
+}
+.btn-error{
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #20A4EF;
+	color: #fff;
+	font-size: 15px; 
+}

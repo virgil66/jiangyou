@@ -1,0 +1,74 @@
+.success,
+.account{
+	background-color: #FCFCFC;
+}
+.success,
+.success-btn{
+	text-align: center;
+}
+.success{
+	padding: 25px 0;
+	box-sizing: border-box;
+}
+.success,
+.account{
+	margin-top: 1px;
+}
+.icon-success{
+	width: 82px;
+}
+.pay-state{
+	margin: 3px 0;
+}
+.pay-department{
+	padding: 8px 0;
+	box-sizing: border-box;
+}
+.pay-department,
+.content-gray,
+.hint{
+	color: #A8A8A8;
+}
+.yuan{
+	font-size: 14px;
+}
+.pay-num{
+	font-size: 38px;
+}
+.account{
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.account-list{
+	padding: 9px 15px 9px 0;
+	box-sizing: border-box;
+}
+.account-list + .account-list{
+	border-top: 1px solid #E6E6E6;
+}
+.content-gray{
+	float: right;
+}
+.hint,
+.btn-default{
+	padding: 20px 15px;
+	box-sizing: border-box;
+}
+.hint{
+	font-size: 13px;
+}
+.hint-title{
+	white-space: nowrap;
+}
+.lighting-blue{
+	color: #20A4EF;
+}
+.success-btn{
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	background-color: #20A4EF;
+	border-radius: 5px;
+	font-size: 15px;
+}

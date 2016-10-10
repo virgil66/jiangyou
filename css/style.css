@@ -1,0 +1,72 @@
+.main,
+.title{
+	padding: 15px;
+	box-sizing: border-box;
+}
+.content{
+	background-color: #FCFCFC;
+	border-radius: 8px;
+}
+.title,
+.units-group,
+.userID-group,
+.remark-group{
+	border-bottom: 1px solid #E6E6E6;
+}
+.icon{
+	width: 35px;
+}
+.icon,
+.name{
+	vertical-align: middle;
+}
+.name,
+.units,
+.userID,
+.remark{
+	font-size: 16px;
+}
+.name{
+	margin-left: 5px;
+}
+.information{
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.units-name{
+	color: #20A4EF;
+}
+.units-group,
+.userID-group,
+.remark-group{
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+.units-name,
+.userID-input,
+.remark-input{
+	margin-right: 15px;
+	float: right;
+}
+.remark-input,
+.userID-input{
+	width: 190px;
+	text-align: right;
+	outline: none;
+    border: none;
+    margin-top: 4px;
+}
+.btn-default{
+	padding: 30px 20px 30px 5px;
+	box-sizing: border-box;
+}
+.btn{
+	padding: 12px 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	width: 100%;
+	background-color: #20A4EF;
+	color: #fcfcfc;
+	border-radius: 4px;
+}

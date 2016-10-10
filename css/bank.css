@@ -1,0 +1,44 @@
+.card-title{
+	font-weight: 100;
+}
+.card-title{
+	padding: 10px;
+	box-sizing: border-box;
+}
+.bank-group{
+	background-color: #FCFCFC;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.card-list{
+	padding: 5px 12px 5px 0;
+	box-sizing: border-box;
+}
+.card-list + .card-list{
+	border-top: 1px solid #E6E6E6;
+}
+.card-title,
+.card-list .bank-name{
+	color: #A8A8A8;
+}
+.card-list.active .bank-name{
+	color: #222;
+}
+.card-list.active .yes{
+	display: block;
+}
+.bank-symbol{
+	width: 38px;
+	margin-right: 4px;
+}
+.yes{
+	width: 22px;
+	float: right;
+	margin-top: 8px;
+	display: none;
+}
+.bank-symbol,
+.bank-name,
+.yes{
+	vertical-align: middle;
+}

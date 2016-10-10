@@ -1,0 +1,97 @@
+.return-link{
+	display: inline-block;
+}
+.select-btn{
+	float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    color: #20A4EF;
+}
+.record-title{
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+.record-group,
+.cuticle-bar{
+	background-color: #FCFCFC;
+}
+.record-group{
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.record-bar + .record-bar{
+	border-top: 1px solid #E6E6E6;
+}
+.record-bar{
+	padding: 4px 0;
+	box-sizing: border-box;
+}
+.record-photo{
+	width: 32px;
+	float: left;
+	margin-top: 3.5px;
+}
+.record-content{
+	text-indent: 12px;
+}
+.record-content{
+	padding-right: 12px;
+	box-sizing: border-box;
+}
+.con-tp-rt{
+	display: inline-block;
+}
+.con-tp-rt,
+.con-bm-time{
+	float: right;
+}
+.icon-go{
+	width: 10px;
+}
+.icon-fine{
+	width: 15px;
+}
+.con-bm,
+.record-title{
+	color: #A8A8A8;
+}
+.color-blue{
+	color: #20A4EF;
+}
+.con-bm-account,
+.icon-fine,
+.com-bm-name,
+.con-bm-time,
+.cuticle-photo,
+.cuticle-title{
+	vertical-align: middle;
+}
+.cuticle,
+.cuticle-bg,
+.cuticle-content{
+	width: 100%;
+}
+.cuticle{
+	position: absolute;
+	left: 0;
+	top: 40px;
+	height: 100%;
+	display: none;
+}
+.cuticle-bg{
+	height: inherit;
+	background-color: #000;
+	opacity: .8;
+}
+.cuticle-content{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cuticle-photo{
+	width: 32px;
+}
+.cuticle-bar{
+	padding: 8px 12px;
+	box-sizing: border-box;
+}
